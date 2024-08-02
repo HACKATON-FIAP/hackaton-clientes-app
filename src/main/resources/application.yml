@@ -5,7 +5,7 @@ spring:
     application:
         name: hackaton-clientes-app
     datasource:
-        url: ${DATASOURCE_URL:jdbc:postgresql://localhost:5432/db_usuarios}
+        url: ${DATASOURCE_URL:jdbc:postgresql://localhost:5432/db_clientes}
         username: ${DATASOURCE_USERNAME:postgres}
         password: ${DATASOURCE_PASSWORD:teste123}
         driver-class-name: org.postgresql.Driver

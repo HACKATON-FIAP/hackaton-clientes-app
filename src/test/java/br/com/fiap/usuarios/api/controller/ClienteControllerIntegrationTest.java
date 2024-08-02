@@ -28,7 +28,7 @@ public class ClienteControllerIntegrationTest {
     private final ObjectMapper objectMapper = new ObjectMapper();
 
     private final static PostgreSQLContainer<?> postgresContainer = new PostgreSQLContainer<>("postgres:16-alpine")
-            .withDatabaseName("db_usuarios")
+            .withDatabaseName("db_clientes")
             .withUsername("postgres")
             .withPassword("teste123");
 

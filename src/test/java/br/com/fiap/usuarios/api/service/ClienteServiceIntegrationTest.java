@@ -27,7 +27,7 @@ public class ClienteServiceIntegrationTest {
     private ClienteRepository clienteRepository;
 
      private final static PostgreSQLContainer<?> postgresContainer = new PostgreSQLContainer<>("postgres:16-alpine")
-            .withDatabaseName("db_usuarios")
+            .withDatabaseName("db_clientes")
             .withUsername("postgres")
             .withPassword("teste123");
 
